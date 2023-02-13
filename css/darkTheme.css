@@ -1,0 +1,231 @@
+body {
+    background-color: var(--primaryDark);
+}
+
+.preloaderBg {
+    background-color: var(--primaryDark);
+}
+
+.preloader {
+    border: 15px solid var(--gray);
+    border-top: 15px solid var(--primaryTheme);
+    border-right: 15px solid var(--primaryTheme);
+    border-bottom: 15px solid var(--primaryTheme);
+}
+
+.navbar {
+    border-bottom: 1px solid var(--white);
+}
+
+.navbarLink {
+    color: var(--white);
+}
+
+.hiddenMenuLink {
+    color: var(--white);
+}
+
+.navbarLink:hover, .hiddenMenuLink:hover{
+    background-color: var(--gray);
+}
+
+.navbarLinkActive {
+    background-color: var(--primaryTheme);
+}
+
+.navbarLinkActive:hover {
+    background-color: var(--primaryThemeDark);
+}
+
+.hamburgerIcon .bar {
+    background-color: var(--white);
+}
+
+.landingPage {
+    background-color: var(--primaryDark);
+}
+
+.landingPageTitle {
+    color: var(--white);
+    background: var(--primaryTheme);
+}
+
+.landingPageSubTitle {
+    color: var(--white);
+}
+
+.hiddenMenu {
+    border-right: 0px solid var(--white);
+}
+
+.themeToggle {
+    background-color: var(--primaryDark);
+    border: 1px solid var(--white);
+}
+
+.themeToggleIcon {
+    color: var(--white);
+}
+
+.themeToggle:before {
+    background-color: var(--white);
+}
+
+input:checked + .themeToggle {
+    background-color: var(--primaryTheme);
+}
+
+input:checked + .themeToggle {
+    background-color: var(--primaryTheme);
+}
+
+.hiddenMenuSocialMediaLink {
+    color: var(--white);
+}
+
+.hiddenMenuSocialMediaLink:hover {
+    color: var(--primaryTheme);
+}
+
+.copyrightInfo {
+    color: var(--white);
+}
+
+.scrollDownBtn {
+    background: var(--primaryTheme);
+    color: var(--white);
+}
+
+.sectionPrimary {
+    background: var(--primaryDark);
+}
+
+.sectionSecondary {
+    background: var(--secondaryDark);
+}
+
+.sectionTitleContainer {
+    background: var(--primaryTheme);
+    color: var(--white);
+}
+
+#contact .sectionTitleContainer {
+    background: unset;
+}
+
+.title {
+    color: var(--white);
+}
+
+.txt {
+    color: var(--white);
+}
+
+.txtBox {
+    background-color: var(--gray);
+}
+
+.timeline::after {
+    background-color: var(--gray);
+}
+
+.timeline .container::after {
+    background-color: var(--gray);
+    border: 4px solid var(--gray);
+}
+
+.timeline .left::before {
+    border: medium solid var(--gray);
+    border-color: transparent transparent transparent var(--gray);
+}
+
+.timeline .right::before {
+    border: medium solid var(--gray);
+    border-color: transparent var(--gray) transparent transparent;
+}
+
+.timeline .content {
+    background-color: var(--gray);
+}
+
+.primaryBtn {
+    border: 1px solid var(--primaryTheme);
+    color: var(--white);
+    background-color: var(--primaryTheme);
+}
+
+.primaryBtn:hover {
+    border: 1px solid var(--primaryThemeDark);
+    background:  var(--primaryThemeDark);
+}
+
+.skillCircle .title {
+    fill: var(--white);
+}
+
+.skillCircle .skillCircleSvg circle[id*='circleBg'] {
+    fill: var(--primaryDark);
+    stroke: var(--gray);
+}
+
+.hiddenWindow {
+    background-color: var(--secondaryDark);
+}
+
+.progressBar {
+    background-color: var(--gray);
+}
+
+.progressBarProgress {
+    background-color: var(--primaryTheme);
+}
+
+.inputField {
+    color: var(--white);
+    background-color: var(--secondaryDark);
+    border: 2px solid var(--secondaryDark);
+}
+
+.inputField::placeholder {
+    color: var(--white);
+}
+
+.inputField option {
+    background-color: var(--secondaryDark);
+}
+
+.tile {
+    background-color: var(--secondaryDark);
+}
+
+.material-icons, .svg-inline--fa {
+    color: var(--white);
+}
+
+.form {
+    background-color: var(--secondaryDark);
+}
+
+.form input, .form textarea, .form select {
+    background-color: var(--gray);
+}
+
+@supports not (backdrop-filter: blur(15px)) {
+    .navbar {
+        background-color: var(--primaryDark);
+    }
+
+    .hiddenMenu {
+        background-color: var(--primaryDark);
+    }
+
+    .hiddenWindowBg {
+        background-color: var(--primaryDarkTransparent);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .timeline .container::before {
+        border-color: transparent var(--gray) transparent transparent;
+    }
+}

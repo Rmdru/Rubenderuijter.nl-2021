@@ -1,0 +1,250 @@
+.preloaderBg {
+    background-color: var(--white);
+}
+
+.preloader {
+    border: 15px solid var(--primaryLight);
+    border-top: 15px solid var(--primaryTheme);
+    border-right: 15px solid var(--primaryTheme);
+    border-bottom: 15px solid var(--primaryTheme);
+}
+
+.title {
+    color: var(--black);
+}
+
+.txt {
+    color: var(--black);
+}
+
+.navbar {
+    border-bottom: 1px solid var(--secondaryLight);
+}
+
+.navbarLink {
+    color: var(--primaryTheme);
+}
+
+.hiddenMenuLink {
+    color: var(--primaryTheme);
+}
+
+.hiddenMenuLink:hover {
+    background-color: var(--primaryLight);
+}
+
+.navbarLink:hover {
+    background-color: var(--primaryLight);
+    color: var(--black);
+}
+
+.navbarLinkActive {
+    background: var(--primaryTheme);
+    color: var(--white);
+}
+
+.navbarLink.navbarLinkActive:hover {
+    background-color: var(--primaryThemeDark);
+    color: var(--white);
+}
+
+.hamburgerIcon .bar {
+    background-color: var(--primaryTheme);
+}
+
+.landingPage {
+    background-color: var(--white);
+}
+
+.landingPageTitle {
+    color: var(--white);
+    background-color: var(--primaryTheme);
+}
+
+.landingPageSubTitle {
+    color: var(--black);
+}
+
+.hiddenMenu {
+    border-right: 0px solid var(--secondaryLight);
+}
+
+.themeToggle {
+    background-color: var(--primaryLight);
+    border: 1px solid var(--primaryLight);
+}
+
+.themeToggleIcon {
+    color: var(--primaryTheme);
+}
+
+.themeToggle:before {
+    background-color: var(--white);
+}
+
+input:checked + .themeToggle {
+    background-color: var(--primaryTheme);
+}
+
+input:checked + .themeToggle {
+    background-color: var(--primaryTheme);
+}
+
+.hiddenMenuSocialMediaLink {
+    color: var(--primaryTheme);
+}
+
+.hiddenMenuSocialMediaLink:hover {
+    color: var(--primaryThemeDark);
+}
+
+.copyrightInfo {
+    color: var(--secondaryLight);
+}
+
+.scrollDownBtn {
+    background: var(--primaryTheme);
+    color: var(--white);
+}
+
+.sectionPrimary {
+    background: var(--white);
+}
+
+.sectionSecondary {
+    background: var(--primaryLight);
+}
+
+.sectionTitleContainer {
+    background: var(--primaryTheme);
+    color: var(--white);
+}
+
+#contact .sectionTitleContainer {
+    background: unset;
+}
+
+.txtBox {
+    background-color: var(--primaryLight);
+}
+
+.timeline::after {
+    background-color: var(--midLight);
+}
+
+.timeline .container::after {
+    background-color: var(--midLight);
+    border: 4px solid var(--midLight);
+}
+
+.timeline .left::before {
+    border: medium solid var(--primaryLight);
+    border-color: transparent transparent transparent var(--primaryLight);
+}
+
+.timeline .right::before {
+    border: medium solid var(--primaryLight);
+    border-color: transparent var(--primaryLight) transparent transparent;
+}
+
+.timeline .content {
+    background-color: var(--primaryLight);
+}
+
+.primaryBtn {
+    border: 1px solid var(--primaryTheme);
+    color: var(--white);
+    background-color: var(--primaryTheme);
+}
+
+.primaryBtn:hover {
+    border: 1px solid var(--primaryThemeDark);
+    background:  var(--primaryThemeDark);
+}
+
+.skillCircle .title {
+    fill: var(--black);
+}
+
+.skillCircle .skillCircleSvg circle[id*='circleBg'] {
+    fill: var(--white);
+    stroke: var(--primaryLight);
+}
+
+.hiddenWindow {
+    background-color: var(--primaryLight);
+}
+
+.progressBar {
+    background-color: var(--midLight);
+}
+
+.progressBarProgress {
+    background-color: var(--primaryTheme);
+}
+
+.inputField {
+    color: var(--black);
+    background-color: var(--primaryLight);
+    border: 2px solid var(--primaryLight);
+}
+.inputField::placeholder {
+    color: var(--black);
+}
+
+.inputField option {
+    color: var(--black);
+    background-color: var(--primaryLight);
+}
+
+.tile {
+    background-color: var(--primaryLight);
+}
+
+.material-icons, .svg-inline--fa {
+    color: var(--black);
+}
+
+.primaryBtn .material-icons, .scrollDownBtn .material-icons {
+    color: var(--white);
+}
+
+.form {
+    background-color: var(--primaryLight);
+}
+
+.form input, .form textarea, .form select {
+    background-color: var(--midLight);
+}
+
+.primaryBtn .material-icons, .primaryBtn .svg-inline--fa {
+    color: var(--white);
+}
+
+.Typewriter__wrapper .highlighted {
+    color: var(--white);
+}
+
+@supports not (backdrop-filter: blur(15px)) {
+    .navbar {
+        background-color: var(--primaryLight);
+    }
+
+    .navbarLink:hover, .hiddenMenuLink:hover, .hamburgerBtn:hover {
+        background-color: var(--midLight);
+    }    
+
+    .hiddenMenu {
+        background-color: var(--primaryLight);
+    }
+
+    .hiddenSkillsBg {
+        background-color: var(--secondaryLightTransparent);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .timeline .container::before {
+        border-color: transparent var(--primaryLight) transparent transparent;
+    }
+}
