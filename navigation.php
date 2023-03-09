@@ -74,9 +74,6 @@
             <div class="hiddenMenuSocialMediaLinks">
                 <a href="https://www.linkedin.com/in/ruben-de-ruijter/" rel="noopener" target="_blank" class="hiddenMenuSocialMediaLinkContainer"><i class="fab fa-linkedin hiddenMenuSocialMediaLink"></i></a>
                 <a href="https://github.com/Rmdru" rel="noopener" target="_blank" class="hiddenMenuSocialMediaLinkContainer"><i class="fab fa-github hiddenMenuSocialMediaLink"></i></a>
-                <a href="https://www.instagram.com/ruben.de.ruijter/" rel="noopener" target="_blank" class="hiddenMenuSocialMediaLinkContainer"><i class="fab fa-instagram hiddenMenuSocialMediaLink"></i></a>
-                <a href="https://www.facebook.com/ruben.deruijter.1/" rel="noopener" target="_blank" class="hiddenMenuSocialMediaLinkContainer"><i class="fab fa-facebook hiddenMenuSocialMediaLink"></i></a>
-                <a href="https://twitter.com/RuijterRuben" rel="noopener" target="_blank" class="hiddenMenuSocialMediaLinkContainer"><i class="fab fa-twitter hiddenMenuSocialMediaLink"></i></a>
             </div>
             <p class="copyrightInfo txt">© Ruben de Ruijter <?php echo date("Y"); ?></p>
         </div>

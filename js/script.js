@@ -418,6 +418,7 @@ $("#closePortfolioItemBtn").on("click", function() {closeHiddenPortfolioItemWind
 $("#closeHiddenPortfolioItemWindow").on("click", function() {closeHiddenPortfolioItemWindow()});
 
 function closeHiddenPortfolioItemWindow() {
+    history.pushState({}, "", "#");
     $("#hiddenPortfolioItemBg").fadeOut();
 }
 
