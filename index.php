@@ -33,7 +33,7 @@
             <div class="row90 animatedContainer">
                 <div class="column column70 columnLeft animationSlideLeft">
                     <div class="txtBox">
-                        <p class="txt">Hallo, mijn naam is Ruben de Ruijter, een gepassioneerde Full-stack Developer. Ik ben <?php echo $age; ?> jaar, en woon in Hellevoetsluis. Ik doe de opleiding Assiocate Degree Software Development op de Hogeschool Rotterdam. Ook werk ik bij Miniworld Rotterdam en Studentaanhuis. Naast mijn werk en school ben ik ook erg geïnteresseerd in de ICT wereld en programmeer ik regelmatig.</p>
+                        <p class="txt">Hallo, mijn naam is Ruben de Ruijter, een gepassioneerde Full-stack Developer. Ik ben <?php echo $age; ?> jaar, en woon in Hellevoetsluis. Ik doe de opleiding Assiocate Degree Software Development op de Hogeschool Rotterdam. Ook werk ik bij Miniworld Rotterdam, DHL en Studentaanhuis. Naast mijn werk en school ben ik ook erg geïnteresseerd in de ICT wereld en programmeer ik regelmatig.</p>
                         <a href="/files/CV.pdf" target="_blank" rel="noopener" class="primaryBtn"><span class="material-icons">work</span> Bekijk CV</a>
                     </div>
                 </div>
@@ -78,6 +78,20 @@
                 <h2 class="sectionTitle">Werkervaring</h2>
             </div>
             <div class="timeline animatedContainer">
+                <div class="container left animationSlideLeft">
+                    <div class="content">
+                        <h2 class="title">Miniworld Rotterdam</h2>
+                        <p class="txt"><b>Augustus 2023 t/m heden<br /><br />Functie:</b> Full-stack Developer<br /><br /><b>Dienstverband:</b> Tijdelijk contract<br /><br />Naast mijn functie als Operator werk ik voor Miniworld Rotterdam ook aan de nieuwe website van hun op https://miniworldrotterdam.com. Deze gloednieuwe website vervangt hun oude website uit 2012.</p>
+                        <a class="primaryBtn animated fullWidth" rel="noopener" target="_blank" href="https://www.miniworldrotterdam.com/">Meer informatie <i class="material-icons">keyboard_arrow_right</i></a>
+                    </div>
+                </div>
+                <div class="container right animationSlideRight">
+                    <div class="content">
+                        <h2 class="title">DHL</h2>
+                        <p class="txt"><b>April 2023 t/m heden<br /><br />Functie:</b> Bezorger<br /><br /><b>Dienstverband:</b> Parttime<br /><br /></p>
+                        <a class="primaryBtn animated fullWidth" rel="noopener" target="_blank" href="https://www.dhl.com/nl-nl/home.html">Meer informatie <i class="material-icons">keyboard_arrow_right</i></a>
+                    </div>
+                </div>
                 <div class="container left animationSlideLeft">
                     <div class="content">
                         <h2 class="title">Miniworld Rotterdam</h2>
@@ -279,6 +293,7 @@
                 <a class="primaryBtn" target="_blank" rel="noopener" href="https://www.linkedin.com/in/ruben-de-ruijter/"><span class="fab fa-linkedin"></span> Linkedin</a>
                 <a class="primaryBtn" href="/contact"><span class="material-icons">mail</span> Contact</a>
             </div>
+        </section>
         <?php require "../footer.php"; ?>
     </body>
 </html>
